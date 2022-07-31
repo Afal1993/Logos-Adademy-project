@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Cooper';
+}
+
+@font-face {
+    font-family: 'Cooper';
+    src: url('CooperBoldBT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
@@ -29,7 +37,6 @@ body {
     width: 90vw;
     padding: 0 10px;
     color: #000000;
-    font-family: fantasy;
     font-size: 30px;
     top: 40px;
     left: 250px;
@@ -41,12 +48,10 @@ body {
     border-radius: 35px;
     background-color: #FF7900;
     font-size: 30px;
-    font-family: fantasy;
 }
 
 .central-text {
     color: #000000;
-    font-family: bold italic;
     font-weight: 900;
     position: absolute;
     font-size: 200px;
